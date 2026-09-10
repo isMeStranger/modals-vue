@@ -1,29 +1,17 @@
-# notes-app-vue
+# Modals with Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+A small Vue 3 app for trying out modal dialogs. You can add a note and delete one,
+and both actions go through a modal component instead of inline controls.
 
-## Recommended IDE Setup
+## What's inside
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- `Modal.vue` — add a note in a popup
+- `DeleteModal.vue` — confirm before deleting a note
+- `MessageHolder.vue` — shows the notes that were added
 
-## Customize configuration
+## Run it
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
